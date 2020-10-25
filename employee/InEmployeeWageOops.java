@@ -1,4 +1,4 @@
-package computation;
+package employee;
 
 public interface InEmployeeWageOops {
 	
