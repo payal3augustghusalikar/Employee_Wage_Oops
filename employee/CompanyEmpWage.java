@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class CompanyEmpWage {
-	//attributes
+	
 	  public final String company;
 	  public final int empRatePerHr;
 	  public final int numberOfWorkingDays;
@@ -12,7 +12,7 @@ public class CompanyEmpWage {
 	  public int totalEmpWage;
 	  ArrayList<Integer> dailyWage = new ArrayList<Integer>();
 
-	  //constructor
+	  
 	  public CompanyEmpWage(String company, int empRatePerHr, int numberOfWorkingDays, int maxHrPerMonth) {
 	    this.company = company;
 	    this.empRatePerHr = empRatePerHr;
@@ -20,7 +20,7 @@ public class CompanyEmpWage {
 	    this.maxHrPerMonth = maxHrPerMonth;
 	  }
 
-	  //setter
+	  
 	  public void setTotalEmpWage(int totalEmpWage) {
 	    this.totalEmpWage = totalEmpWage;
 	  }

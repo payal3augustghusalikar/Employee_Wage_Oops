@@ -6,11 +6,11 @@ package employee;
 import employee.EmployeeWageOops;
 
 	class EmployeeWageOops implements InEmployeeWageOops {
-	//constants
+	
 	public static final int IS_FULL_TIME=1;
 	public static final int IS_PART_TIME=2;
 	int daySalary;
-	//list
+	
 	ArrayList<Integer> dailyWage = new ArrayList<Integer>();
 	ArrayList<CompanyEmpWage> CompanyEmpWageArrayList;
 	HashMap<String, CompanyEmpWage> CompanyEmpWageMap;
@@ -77,6 +77,6 @@ import employee.EmployeeWageOops;
 		  empWageBuilder.addCompanyEmpWage("sbi", 50, 20, 100);
 		  empWageBuilder.computeEmpWage();
 		  System.out.println("Total wage of the searched company: " + empWageBuilder.getTotalEmpWage("sbi"));
-		} //main
-		// class
+		} 
+		
 		}
