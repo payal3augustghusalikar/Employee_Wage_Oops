@@ -68,6 +68,7 @@ import employee.EmployeeWageOops;
 	  return CompanyEmpWageMap.get(company).totalEmpWage;
 	}
 	public static void main(String[] args) {
+		  System.out.println("Comapny Name");
 		  EmployeeWageOops empWageBuilder = new EmployeeWageOops();
 		  empWageBuilder.addCompanyEmpWage("sbi", 50, 20, 100);
 		  empWageBuilder.addCompanyEmpWage("sc", 40, 20, 100);
